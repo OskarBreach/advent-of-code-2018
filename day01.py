@@ -30,7 +30,7 @@ def first_repeated_frequency(frequency_changes):
 def test1():
     print("Test 1: ")
 
-    with open("inputs/input 01.txt", "r") as f:
+    with open("inputs/input01.txt", "r") as f:
         frequency_changes = f.readlines()
     print(resulting_frequency(frequency_changes))
 
@@ -38,7 +38,7 @@ def test1():
 def test2():
     print("Test 2: ")
 
-    with open("inputs/input 01.txt", "r") as f:
+    with open("inputs/input01.txt", "r") as f:
         frequency_changes = f.readlines()
     print(first_repeated_frequency(frequency_changes))
 

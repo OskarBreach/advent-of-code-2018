@@ -64,7 +64,7 @@ def find_boxes(ids):
 def test1():
     print("Test 1: ")
 
-    with open("inputs/input 02.txt", "r") as f:
+    with open("inputs/input02.txt", "r") as f:
         boxes = f.readlines()
     print(checksum(boxes))
 
@@ -72,7 +72,7 @@ def test1():
 def test2():
     print("Test 2: ")
 
-    with open("inputs/input 02.txt", "r") as f:
+    with open("inputs/input02.txt", "r") as f:
         boxes = f.readlines()
     print(find_boxes(boxes))
 
