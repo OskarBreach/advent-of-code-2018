@@ -62,6 +62,7 @@ class GuardAsleepTests(unittest.TestCase):
     def test_get_guard_most_frequently_asleep_on_same_minute(self):
         self.assertEqual(get_guard_most_frequently_asleep(self.records), Guard(99, 30, 45, 3))
 
+
 if __name__ == "__main__":
     unittest.main()
 
